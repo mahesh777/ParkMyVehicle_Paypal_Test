@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26A383A522B26213007615B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A383A422B26213007615B3 /* AppDelegate.swift */; };
+		26A383A722B26213007615B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A383A622B26213007615B3 /* ViewController.swift */; };
+		26A383AA22B26213007615B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A383A822B26213007615B3 /* Main.storyboard */; };
+		26A383AC22B26217007615B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A383AB22B26217007615B3 /* Assets.xcassets */; };
+		26A383AF22B26217007615B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A383AD22B26217007615B3 /* LaunchScreen.storyboard */; };
+		26A383C522B268CE007615B3 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A383C422B268CE007615B3 /* Vehicle.swift */; };
+		26A383CA22B26BFE007615B3 /* ParkingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A383C922B26BFE007615B3 /* ParkingData.swift */; };
+		26A383CE22B270B4007615B3 /* ParkingLot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A383CD22B270B4007615B3 /* ParkingLot.swift */; };
+		3920754122B2AC6200E602A7 /* VehicleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3920754022B2AC6200E602A7 /* VehicleTest.swift */; };
+		92662906231074D3911B3E4E /* Pods_ParkMyVehicleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5FD7630CC5B5ED655A6C561 /* Pods_ParkMyVehicleTests.framework */; };
+		F5CAC5748D314F05205037E1 /* Pods_ParkMyVehicle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732EA3982A43DC0F59124743 /* Pods_ParkMyVehicle.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26A383B622B26217007615B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 26A3839922B26213007615B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26A383A022B26213007615B3;
+			remoteInfo = ParkMyVehicle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25996F05DF90C59CFB70AFEC /* Pods-ParkMyVehicleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkMyVehicleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParkMyVehicleTests/Pods-ParkMyVehicleTests.release.xcconfig"; sourceTree = "<group>"; };
+		26A383A122B26213007615B3 /* ParkMyVehicle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkMyVehicle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A383A422B26213007615B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26A383A622B26213007615B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26A383A922B26213007615B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26A383AB22B26217007615B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26A383AE22B26217007615B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26A383B022B26217007615B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A383B522B26217007615B3 /* ParkMyVehicleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkMyVehicleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A383BB22B26217007615B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A383C422B268CE007615B3 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		26A383C922B26BFE007615B3 /* ParkingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingData.swift; sourceTree = "<group>"; };
+		26A383CD22B270B4007615B3 /* ParkingLot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingLot.swift; sourceTree = "<group>"; };
+		3920754022B2AC6200E602A7 /* VehicleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTest.swift; sourceTree = "<group>"; };
+		732EA3982A43DC0F59124743 /* Pods_ParkMyVehicle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParkMyVehicle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5FD7630CC5B5ED655A6C561 /* Pods_ParkMyVehicleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParkMyVehicleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7A207E78BF1D69C34195B9D /* Pods-ParkMyVehicle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkMyVehicle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParkMyVehicle/Pods-ParkMyVehicle.debug.xcconfig"; sourceTree = "<group>"; };
+		FB22559D1C1020DB4071C80E /* Pods-ParkMyVehicle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkMyVehicle.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParkMyVehicle/Pods-ParkMyVehicle.release.xcconfig"; sourceTree = "<group>"; };
+		FD67983FFAB870FFE31C3D71 /* Pods-ParkMyVehicleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkMyVehicleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParkMyVehicleTests/Pods-ParkMyVehicleTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26A3839E22B26213007615B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CAC5748D314F05205037E1 /* Pods_ParkMyVehicle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A383B222B26217007615B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92662906231074D3911B3E4E /* Pods_ParkMyVehicleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CCFDBBCD50D5D468F3E0FD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				732EA3982A43DC0F59124743 /* Pods_ParkMyVehicle.framework */,
+				B5FD7630CC5B5ED655A6C561 /* Pods_ParkMyVehicleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		26A3839822B26213007615B3 = {
+			isa = PBXGroup;
+			children = (
+				26A383A322B26213007615B3 /* ParkMyVehicle */,
+				26A383B822B26217007615B3 /* ParkMyVehicleTests */,
+				26A383A222B26213007615B3 /* Products */,
+				BF20D1CAE3CAD81B275EA954 /* Pods */,
+				0CCFDBBCD50D5D468F3E0FD7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26A383A222B26213007615B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26A383A122B26213007615B3 /* ParkMyVehicle.app */,
+				26A383B522B26217007615B3 /* ParkMyVehicleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26A383A322B26213007615B3 /* ParkMyVehicle */ = {
+			isa = PBXGroup;
+			children = (
+				26A383CC22B2706C007615B3 /* Parking Model */,
+				26A383C822B26BA2007615B3 /* Database Layer */,
+				26A383A422B26213007615B3 /* AppDelegate.swift */,
+				26A383A622B26213007615B3 /* ViewController.swift */,
+				26A383A822B26213007615B3 /* Main.storyboard */,
+				26A383AB22B26217007615B3 /* Assets.xcassets */,
+				26A383AD22B26217007615B3 /* LaunchScreen.storyboard */,
+				26A383B022B26217007615B3 /* Info.plist */,
+				26A383C422B268CE007615B3 /* Vehicle.swift */,
+			);
+			path = ParkMyVehicle;
+			sourceTree = "<group>";
+		};
+		26A383B822B26217007615B3 /* ParkMyVehicleTests */ = {
+			isa = PBXGroup;
+			children = (
+				26A383BB22B26217007615B3 /* Info.plist */,
+				3920754022B2AC6200E602A7 /* VehicleTest.swift */,
+			);
+			path = ParkMyVehicleTests;
+			sourceTree = "<group>";
+		};
+		26A383C822B26BA2007615B3 /* Database Layer */ = {
+			isa = PBXGroup;
+			children = (
+				26A383C922B26BFE007615B3 /* ParkingData.swift */,
+			);
+			path = "Database Layer";
+			sourceTree = "<group>";
+		};
+		26A383CC22B2706C007615B3 /* Parking Model */ = {
+			isa = PBXGroup;
+			children = (
+				26A383CD22B270B4007615B3 /* ParkingLot.swift */,
+			);
+			path = "Parking Model";
+			sourceTree = "<group>";
+		};
+		BF20D1CAE3CAD81B275EA954 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7A207E78BF1D69C34195B9D /* Pods-ParkMyVehicle.debug.xcconfig */,
+				FB22559D1C1020DB4071C80E /* Pods-ParkMyVehicle.release.xcconfig */,
+				FD67983FFAB870FFE31C3D71 /* Pods-ParkMyVehicleTests.debug.xcconfig */,
+				25996F05DF90C59CFB70AFEC /* Pods-ParkMyVehicleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26A383A022B26213007615B3 /* ParkMyVehicle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A383BE22B26217007615B3 /* Build configuration list for PBXNativeTarget "ParkMyVehicle" */;
+			buildPhases = (
+				29B1047A9FD13C787215B20A /* [CP] Check Pods Manifest.lock */,
+				26A3839D22B26213007615B3 /* Sources */,
+				26A3839E22B26213007615B3 /* Frameworks */,
+				26A3839F22B26213007615B3 /* Resources */,
+				72313732C0A7D03AE585A032 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParkMyVehicle;
+			productName = ParkMyVehicle;
+			productReference = 26A383A122B26213007615B3 /* ParkMyVehicle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		26A383B422B26217007615B3 /* ParkMyVehicleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A383C122B26217007615B3 /* Build configuration list for PBXNativeTarget "ParkMyVehicleTests" */;
+			buildPhases = (
+				E2309CC2AAD3753A30BD5EDB /* [CP] Check Pods Manifest.lock */,
+				26A383B122B26217007615B3 /* Sources */,
+				26A383B222B26217007615B3 /* Frameworks */,
+				26A383B322B26217007615B3 /* Resources */,
+				82F6810D13EB198059171E13 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26A383B722B26217007615B3 /* PBXTargetDependency */,
+			);
+			name = ParkMyVehicleTests;
+			productName = ParkMyVehicleTests;
+			productReference = 26A383B522B26217007615B3 /* ParkMyVehicleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26A3839922B26213007615B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Kaha Pte Ltd";
+				TargetAttributes = {
+					26A383A022B26213007615B3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					26A383B422B26217007615B3 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 26A383A022B26213007615B3;
+					};
+				};
+			};
+			buildConfigurationList = 26A3839C22B26213007615B3 /* Build configuration list for PBXProject "ParkMyVehicle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26A3839822B26213007615B3;
+			productRefGroup = 26A383A222B26213007615B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26A383A022B26213007615B3 /* ParkMyVehicle */,
+				26A383B422B26217007615B3 /* ParkMyVehicleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26A3839F22B26213007615B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A383AF22B26217007615B3 /* LaunchScreen.storyboard in Resources */,
+				26A383AC22B26217007615B3 /* Assets.xcassets in Resources */,
+				26A383AA22B26213007615B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A383B322B26217007615B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29B1047A9FD13C787215B20A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParkMyVehicle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72313732C0A7D03AE585A032 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ParkMyVehicle/Pods-ParkMyVehicle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParkMyVehicle/Pods-ParkMyVehicle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82F6810D13EB198059171E13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ParkMyVehicleTests/Pods-ParkMyVehicleTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ParkMyVehicleTests/Pods-ParkMyVehicleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2309CC2AAD3753A30BD5EDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParkMyVehicleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26A3839D22B26213007615B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A383A722B26213007615B3 /* ViewController.swift in Sources */,
+				26A383A522B26213007615B3 /* AppDelegate.swift in Sources */,
+				26A383CE22B270B4007615B3 /* ParkingLot.swift in Sources */,
+				26A383CA22B26BFE007615B3 /* ParkingData.swift in Sources */,
+				26A383C522B268CE007615B3 /* Vehicle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26A383B122B26217007615B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3920754122B2AC6200E602A7 /* VehicleTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26A383B722B26217007615B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26A383A022B26213007615B3 /* ParkMyVehicle */;
+			targetProxy = 26A383B622B26217007615B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		26A383A822B26213007615B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A383A922B26213007615B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26A383AD22B26217007615B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A383AE22B26217007615B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26A383BC22B26217007615B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		26A383BD22B26217007615B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26A383BF22B26217007615B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A207E78BF1D69C34195B9D /* Pods-ParkMyVehicle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ParkMyVehicle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kaha.ParkMyVehicle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26A383C022B26217007615B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB22559D1C1020DB4071C80E /* Pods-ParkMyVehicle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ParkMyVehicle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kaha.ParkMyVehicle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26A383C222B26217007615B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD67983FFAB870FFE31C3D71 /* Pods-ParkMyVehicleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X573YZ7ZJ;
+				INFOPLIST_FILE = ParkMyVehicleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kaha.ParkMyVehicleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkMyVehicle.app/ParkMyVehicle";
+			};
+			name = Debug;
+		};
+		26A383C322B26217007615B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25996F05DF90C59CFB70AFEC /* Pods-ParkMyVehicleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4X573YZ7ZJ;
+				INFOPLIST_FILE = ParkMyVehicleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kaha.ParkMyVehicleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParkMyVehicle.app/ParkMyVehicle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A3839C22B26213007615B3 /* Build configuration list for PBXProject "ParkMyVehicle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A383BC22B26217007615B3 /* Debug */,
+				26A383BD22B26217007615B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A383BE22B26217007615B3 /* Build configuration list for PBXNativeTarget "ParkMyVehicle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A383BF22B26217007615B3 /* Debug */,
+				26A383C022B26217007615B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A383C122B26217007615B3 /* Build configuration list for PBXNativeTarget "ParkMyVehicleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A383C222B26217007615B3 /* Debug */,
+				26A383C322B26217007615B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26A3839922B26213007615B3 /* Project object */;
+}
